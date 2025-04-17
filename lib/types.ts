@@ -14,6 +14,7 @@ export type FormData = {
     content: string;
     title?: string;
     seoTags?: string[];
+    prompt?: string;
   };
   
   export const platforms = [

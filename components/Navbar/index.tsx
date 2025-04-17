@@ -17,7 +17,7 @@ import {
   SheetContent,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { Moon, Sun, User, Menu } from "lucide-react";
+import { Moon, User, Menu, SunIcon } from "lucide-react";
 import { useTheme } from "next-themes";
 import { signIn, signOut, useSession } from "next-auth/react";
 
@@ -114,7 +114,7 @@ export default function Navbar() {
                   </DropdownMenuItem>
                   <DropdownMenuSeparator />
                   <DropdownMenuItem asChild>
-                    <Link href="/my-generations" className="no-underline w-full cursor-pointer">
+                    <Link href="/generations" className="no-underline w-full cursor-pointer">
                       My Generations
                     </Link>
                   </DropdownMenuItem>
@@ -143,7 +143,7 @@ export default function Navbar() {
               className="hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               {theme === "dark" ? (
-                <Sun className="h-5 w-5" />
+                <SunIcon className="h-5 w-5" />
               ) : (
                 <Moon className="h-5 w-5" />
               )}
@@ -228,7 +228,7 @@ export default function Navbar() {
                     onClick={toggleTheme}
                   >
                     {theme === "dark" ? (
-                      <Sun className="h-5 w-5 mr-2" />
+                      <SunIcon className="h-5 w-5 mr-2" />
                     ) : (
                       <Moon className="h-5 w-5 mr-2" />
                     )}

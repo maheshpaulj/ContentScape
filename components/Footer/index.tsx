@@ -72,16 +72,16 @@ export default function Footer() {
             <li className="flex items-center space-x-2">
               <Mail className="h-5 w-5 text-neutral-500 dark:text-neutral-300" />
               <a
-                href="mailto:support@contentscape.com"
+                href="mailto:mahesh.paul.j@gmail.com"
                 className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
               >
-                support@contentscape.com
+                mahesh.paul.j@gmail.com
               </a>
             </li>
             <li className="flex items-center space-x-2">
               <Github className="h-5 w-5 text-neutral-500 dark:text-neutral-300" />
               <a
-                href="https://github.com/contentscape"
+                href="https://github.com/maheshpaulj/contentscape"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"

@@ -3,7 +3,7 @@ import { AIContentGenerator } from "./_components/generator";
 
 export default function Home() {
   return (
-    <div className="container mx-auto py-8 mt-24">
+    <div className="min-h-screen mx-auto py-8 mt-24">
       <div className="max-w-4xl mx-auto">
         <div className="text-center space-y-2 mb-6">
           <h1 className="text-4xl underline font-bold tracking-tight">AI Content Generator</h1>

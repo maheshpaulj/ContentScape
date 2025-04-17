@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+
+import { Analytics } from "@vercel/analytics/react"
+
 import SessionWrapper from "@/components/SessionWrapper";
 import { Toaster } from "@/components/ui/sonner";
 import Navbar from "@/components/Navbar";
@@ -32,6 +35,7 @@ export default function RootLayout({
             <Footer />
           </SessionWrapper>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
-import { FormData, platforms, tones, audienceTypes, contentLengths } from "./types";
+import { FormData, platforms, tones, audienceTypes, contentLengths } from "@/lib/types";
 
 type GeneratorFormProps = {
   onSubmit: (data: FormData) => void;
@@ -93,7 +93,7 @@ export function GeneratorForm({ onSubmit, isGenerating }: GeneratorFormProps) {
           </div>
 
           {useAdvancedSettings && (
-            <div className="space-y-4 p-4 bg-gray-50 dark:bg-gray-800 rounded-lg">
+            <div className="space-y-4 p-4 bg-gray-50 dark:bg-neutral-800 rounded-lg">
               <div className="space-y-2">
                 <Label className="text-base font-medium">Tone</Label>
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
