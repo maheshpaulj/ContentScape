@@ -107,18 +107,6 @@ export default function Footer() {
           © {new Date().getFullYear()} ContentScape. All rights reserved.
         </p>
         <div className="mt-4 md:mt-0 space-x-4">
-          <Link
-            href="/terms"
-            className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
-          >
-            Terms
-          </Link>
-          <Link
-            href="/privacy"
-            className="text-sm hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
-          >
-            Privacy
-          </Link>
         </div>
       </div>
 
