@@ -90,7 +90,7 @@ export default function AboutPage() {
         >
           <h2 className="text-4xl font-bold mb-6">Open Source & Collaborative</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-3xl mx-auto">
-            ContentScape is proudly open-source, licensed under the MIT License, and hosted on GitHub. We believe in the power of collaboration to make the app better for everyone. Whether you're a developer, designer, or content creator, your contributions can shape the future of ContentScape.
+            ContentScape is proudly open-source, licensed under the MIT License, and hosted on GitHub. We believe in the power of collaboration to make the app better for everyone. Whether you&apos;re a developer, designer, or content creator, your contributions can shape the future of ContentScape.
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-8 mt-8">
             <div className="p-6 bg-white dark:bg-neutral-800 rounded-lg shadow-md max-w-md">

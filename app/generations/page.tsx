@@ -267,7 +267,7 @@ export default function GenerationsPage() {
             </div>
           ) : generations.length === 0 ? (
             <div className="text-center py-8 text-gray-500">
-              <p className="mb-4">You haven't generated any content yet.</p>
+              <p className="mb-4">You haven&apos;t generated any content yet.</p>
               <Button 
                 variant="default" 
                 onClick={() => router.push("/generate")}

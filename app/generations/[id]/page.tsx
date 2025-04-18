@@ -394,7 +394,7 @@ export default function GenerationDetailsPage({ params }: { params: { id: string
         ) : (
           <Card>
             <CardContent className="py-8">
-              <p className="text-center">Generation not found or you don't have permission to view it.</p>
+              <p className="text-center">Generation not found or you don&apos;t have permission to view it.</p>
             </CardContent>
           </Card>
         )}
